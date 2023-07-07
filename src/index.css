@@ -3,3 +3,116 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: 'Ysabeau SC', sans-serif;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ul {
+  list-style: none;
+}
+section {
+  padding: 30px;
+}
+.title {
+  margin-bottom: 40px;
+}
+.title span {
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  background: #56a746;
+}
+.title h1 {
+  font-size: 40px;
+  margin-bottom: -10px;
+}
+
+
+
+header {
+  background: url(./assets/bg.jpg) fixed no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background: #0000004f;
+}
+header nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+header nav ul li {
+  margin: 0 20px;
+}
+header img {
+  width: 50px;
+}
+header .slogan {
+  width: 100%;
+  height: 89%;
+  background: #0000004f;
+  position: relative;
+}
+.slogan div {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  transform: translateY(-50%);
+  font-size: 35px;
+  width: 50%;
+}
+.slogan span {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+
+
+.bestsellers {
+  background-color: #daf1c3;
+}
+.bestsellers .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 100px;
+}
+.bestsellers figure {
+  width: 30%; 
+  height: 450px;
+  position: relative;
+  margin: 20px;
+}
+.bestsellers figure:nth-child(1) {
+  flex-grow: 1;
+}
+.bestsellers figure:nth-child(4) {
+  flex-grow: 1;
+}
+.bestsellers figcaption {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: #ffffffbe;
+  width: 100%;
+}
+.bestsellers figcaption h2 {
+  font-size: 18px;
+}
+.bestsellers figcaption p {
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+}

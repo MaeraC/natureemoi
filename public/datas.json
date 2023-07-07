@@ -1,0 +1,24 @@
+{
+    "bestsellers": [
+        {
+            "url": "./assets/meilleures-ventes/1.jpg",
+            "name": "Fleurs de porcelaine",
+            "price": "24,99"
+        },
+        {
+            "url": "./assets/meilleures-ventes/2.jpg",
+            "name": "Vanillier",
+            "price": "14,99"
+        },
+        {
+            "url": "./assets/meilleures-ventes/3.jpg",
+            "name": "Pothos argenté",
+            "price": "24,99"
+        },
+        {
+            "url": "./assets/meilleures-ventes/4.jpg",
+            "name": "Monstera",
+            "price": "29,99"
+        }
+    ]
+}
