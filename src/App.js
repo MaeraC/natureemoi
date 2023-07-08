@@ -1,12 +1,16 @@
+import Advantages from "./components/Advantages"
 import Bestsellers from "./components/Bestsellers"
+import Plants from "./components/Plants"
 import Header from "./components/Header"
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
       <Bestsellers />
-    </div>
+      <Advantages />
+      <Plants />
+    </>
   )
 }
 

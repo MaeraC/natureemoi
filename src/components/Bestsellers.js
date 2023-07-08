@@ -14,7 +14,7 @@ function Bestsellers() {
             setPlants(data.bestsellers)
         }
         catch (error) {
-            console.error("Error fetching iamges:", error)
+            console.error("Error fetching images:", error)
         }
     }
 
@@ -30,7 +30,7 @@ function Bestsellers() {
                         <img src={image.url} alt={image.name} />
                         <figcaption>
                             <h2>{image.name}</h2>
-                            <p>{image.price}</p>
+                            <p>{image.price}€</p>
                         </figcaption>
                     </figure>
                 ))}

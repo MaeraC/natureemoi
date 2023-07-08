@@ -20,5 +20,335 @@
             "name": "Monstera",
             "price": "29,99"
         }
+    ],
+    "plants": [
+        {
+            "url": "./assets/plantes/1.jpg",
+            "name": "Fusain du Japon",
+            "price": "17,99"
+        },
+        {
+            "url": "./assets/plantes/2.jpg",
+            "name": "Chlorophytum",
+            "price": "9,99"
+        },
+        {
+            "url": "./assets/plantes/3.jpg",
+            "name": "Fleurs de cire",
+            "price": "44,99"
+        },
+        {
+            "url": "./assets/plantes/4.jpg",
+            "name": "Saule",
+            "price": "18,99"
+        },
+        {
+            "url": "./assets/plantes/5.jpg",
+            "name": "Monstera",
+            "price": "24,99"
+        },
+        {
+            "url": "./assets/plantes/6.jpg",
+            "name": "Palmier du Mexique ",
+            "price": "14,99"
+        }
+    ],
+    "allPlants": [
+        {
+            "url": "./assets/all-plants/mini-format/1.jpg",
+            "name": "Monstera ",
+            "price": "14,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/2.jpg",
+            "name": "Gommier cidre ",
+            "price": "17,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/3.jpg",
+            "name": "Eucalyptus ",
+            "price": "15,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/4.jpg",
+            "name": "Monstera ",
+            "price": "18,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/5.jpg",
+            "name": "Palmier nain ",
+            "price": "12,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/6.jpg",
+            "name": "Pothos argenté ",
+            "price": "16,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/7.jpg",
+            "name": "Sansevieria",
+            "price": "15,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/8.jpg",
+            "name": "Sansevieria",
+            "price": "12,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/9.jpg",
+            "name": "Gommier cidre",
+            "price": "15,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/10.jpg",
+            "name": "Zamioculcas ",
+            "price": "18,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/11.jpg",
+            "name": "Nopal",
+            "price": "14,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/12.jpg",
+            "name": "Sansevieria",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/1.jpg",
+            "name": "Ficus",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/2.jpg",
+            "name": "Monstera",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/3.jpg",
+            "name": "Syngonium podophyllum",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/4.jpg",
+            "name": "Monstera",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/5.jpg",
+            "name": "Monstera",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/8.jpg",
+            "name": "Monstera",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/9.jpg",
+            "name": "Palmier Cascade",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/10.jpg",
+            "name": "Monstera",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/11.jpg",
+            "name": "Zamioculcas",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/12.jpg",
+            "name": "Ficus",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/1.jpg",
+            "name": "Saintpaulia",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/2.jpg",
+            "name": "Hybride de thé",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/3.jpg",
+            "name": "Euryops",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/5.jpg",
+            "name": "Capanule du Texas",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/6.jpg",
+            "name": "Tulipes",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/7.jpg",
+            "name": "Tulipes",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/8.jpg",
+            "name": "Tulipes",
+            "price": "13,99"
+        }
+    ],
+    "miniPlants": [
+        {
+            "url": "./assets/all-plants/mini-format/1.jpg",
+            "name": "Monstera ",
+            "price": "14,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/2.jpg",
+            "name": "Gommier cidre ",
+            "price": "17,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/3.jpg",
+            "name": "Eucalyptus ",
+            "price": "15,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/4.jpg",
+            "name": "Monstera ",
+            "price": "18,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/5.jpg",
+            "name": "Palmier nain ",
+            "price": "12,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/6.jpg",
+            "name": "Pothos argenté ",
+            "price": "16,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/7.jpg",
+            "name": "Sansevieria",
+            "price": "15,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/8.jpg",
+            "name": "Sansevieria",
+            "price": "12,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/9.jpg",
+            "name": "Gommier cidre",
+            "price": "15,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/10.jpg",
+            "name": "Zamioculcas ",
+            "price": "18,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/11.jpg",
+            "name": "Nopal",
+            "price": "14,99"
+        },
+        {
+            "url": "./assets/all-plants/mini-format/12.jpg",
+            "name": "Sansevieria",
+            "price": "13,99"
+        }
+    ],
+    "maxiPlants": [
+        {
+            "url": "./assets/all-plants/maxi-format/1.jpg",
+            "name": "Ficus",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/2.jpg",
+            "name": "Monstera",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/3.jpg",
+            "name": "Syngonium podophyllum",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/4.jpg",
+            "name": "Monstera",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/5.jpg",
+            "name": "Monstera",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/8.jpg",
+            "name": "Monstera",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/9.jpg",
+            "name": "Palmier Cascade",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/10.jpg",
+            "name": "Monstera",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/11.jpg",
+            "name": "Zamioculcas",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/maxi-format/12.jpg",
+            "name": "Ficus",
+            "price": "13,99"
+        }
+    ],
+    "flowers": [
+        {
+            "url": "./assets/all-plants/fleurs/1.jpg",
+            "name": "Saintpaulia",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/2.jpg",
+            "name": "Hybride de thé",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/3.jpg",
+            "name": "Euryops",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/5.jpg",
+            "name": "Capanule du Texas",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/6.jpg",
+            "name": "Tulipes",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/7.jpg",
+            "name": "Tulipes",
+            "price": "13,99"
+        },
+        {
+            "url": "./assets/all-plants/fleurs/8.jpg",
+            "name": "Tulipes",
+            "price": "13,99"
+        }
     ]
 }
