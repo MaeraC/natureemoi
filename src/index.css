@@ -55,6 +55,26 @@ section {
   font-size: 15px;
   cursor: pointer;
 }
+@media screen and (max-width: 800px) {
+  .title h1 {
+    font-size: 35px;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .title h1 {
+    font-size: 25px;
+  }
+}
+
+
 
 
 
@@ -185,6 +205,66 @@ nav .account a:hover {
 .dark-bg-none {
   display: none;
 }
+nav .menu2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  z-index: 99;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+}
+nav .menu2 a {
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin: 10px;
+}
+nav .menu2 img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1180px) {
+  nav .menu {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  nav .menu {
+    font-size: 15px;
+  }
+  nav .logo {
+    font-size: 20px;
+  }
+  nav .icons img {
+    width: 20px;
+  }
+  nav .open-burger {
+    padding: 2px 5px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  nav .menu {
+    font-size: 15px;
+  }
+  nav .logo {
+    font-size: 18px;
+  }
+  nav .icons img {
+    width: 18px;
+  }
+  nav .open-burger {
+    padding: 2px 5px;
+    font-size: 13px;
+  }
+}
 
 
 
@@ -225,7 +305,37 @@ nav .account a:hover {
 .header a {
   color: white;
 }
-
+@media screen and (max-width: 900px) {
+  .header {
+    height: 50vh;
+  }
+  .slogan div {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header {
+    height: 40vh;
+  }
+  .slogan div {
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .slogan div span {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .slogan div {
+    width: 85%;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .slogan div span {
+    font-size: 18px;
+  }
+}
 
 
 
@@ -247,6 +357,13 @@ nav .account a:hover {
 .soldes p:hover {
   animation-play-state: paused;
 }
+@media screen and (max-width: 800px) {
+  .soldes p {
+    font-size: 15px;
+  }
+}
+
+
 
 
 
@@ -306,6 +423,36 @@ nav .account a:hover {
   color: #558855;
   transition: 0.3s;
 }
+@media screen and (max-width: 968px) {
+  .bestsellers .container, .plants .container {
+    margin: 20px 0;
+  }
+  .bestsellers a , .plants a { 
+    height: 350px;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  section {
+    padding: 10px;
+  }
+  .bestsellers .container, .plants .container {
+    margin: 20px 0;
+  }
+  .bestsellers a , .plants a { 
+    height: 300px;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bestsellers a , .plants a { 
+    height: 300px;
+    width: 100%;
+  }
+  section {
+    padding: 20px;
+  }
+}
 
 
 
@@ -337,6 +484,40 @@ nav .account a:hover {
   margin-top: 15px;
   color: white;
 }
+@media screen and (max-width: 968px) {
+  .advantages ul {
+    width : 100%;
+    margin: 0 40px;
+  }
+  .advantages p {
+    width: 80%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .advantages ul {
+    flex-direction: column;
+  }
+  .advantages ul li {
+    margin: 40px 0;
+  }
+  .advantages img {
+    width: 80px;
+    height: 80px;
+  }
+  .advantages p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .advantages img {
+    width: 50px;
+    height: 50px;
+  }
+  .advantages p {
+    font-size: 16px;
+  }
+}
 
 
 
@@ -359,6 +540,24 @@ nav .account a:hover {
   justify-content: center;
   align-items: center;
   background: #0000006c;
+}
+@media screen and (max-width: 700px) {
+  .header-page h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .header-page  {
+    height: 150px;
+  }
+  .header-page h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header-page h1 {
+    font-size: 25px;
+  }
 }
 
 
@@ -427,6 +626,59 @@ nav .account a:hover {
 .results button img , .bestsellers button img  , .plants button img {
   width: 25px;
 }
+@media screen and (max-width: 1050px) {
+  .filter-plants {
+    padding-bottom: 0;
+  }
+  .filter-plants ul {
+    flex-wrap: wrap;
+  }
+  .filter-plants h2 {
+    display: none;
+  }
+  .filter-plants .button ,.filter-plants select {
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .results a {
+    width: 25%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .results a {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .results a {
+    width: 100%;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .filter-plants ul li {
+    width: 70%;
+  }
+  .filter-plants .button ,.filter-plants select {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .filter-plants ul li {
+    width: 100%;
+  }
+  .filter-plants .button ,.filter-plants select {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
 
 
 
@@ -507,6 +759,83 @@ nav .account a:hover {
   width: 20px;
   margin-right: 10px;
 }
+@media screen and (max-width: 1024px) {
+  .product {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product img {
+    width: 80%;
+    height: 500px;
+  }
+  .product .infos {
+    width: 80%;
+    padding-right: 0;
+  }
+  .product .garantees img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .product img {
+    width: 100%;
+    height: 350px;
+  }
+  .product .infos {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .product {
+    padding: 20px;
+  }
+  .product img {
+    height: 300px;
+  }
+  .product .button {
+    width: 60%;
+    text-transform: uppercase;
+  }
+}
+@media screen and (max-width: 450px) {
+  .product .head {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .product .head h1 {
+    font-size: 25px;
+  }
+  .product .head ul li {
+    margin-top: 10px;
+  }
+  .product .head ul li:nth-child(1) {
+    font-size: 18px;
+  }
+  .product .head ul li:nth-child(2) {
+    font-size: 18px;
+  }
+  .product .btn-cart {
+    flex-direction: column;
+  }
+  .product .button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .product .btn-cart input {
+    height: 30px;
+    width: 50px;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .product img {
+    height: 250px;
+  }
+}
+
+
 
 
 
@@ -559,3 +888,24 @@ footer .reseaux li:nth-child(3) img {
 footer .reseaux li  {
   padding-bottom: 5px;
 }
+@media screen and (max-width: 800px) {
+  footer div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer div ul {
+    width: 40%;
+    margin: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer div ul {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer div ul {
+    width: 100%;
+    margin: 10px;
+  }
+} 
