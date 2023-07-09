@@ -1,7 +1,7 @@
 function HeaderPage() {
     return (
         <header className="header-page">
-            <h1>Toutes nos plantes</h1>
+            <h1>Nos plantes d'intérieur</h1>
         </header>
     )
 }

@@ -1,18 +1,12 @@
-import logo from '../assets/logo.png'
-import { Link } from 'react-router-dom'
+
+import Nav from './Nav'
 
 function Header() {
     return (
+        <>
+        <Nav />
+            
         <header className="header">
-            <nav>
-            <img src={logo} alt="Logo NaturEmoi" />
-                <ul>
-                    <li>Accueil</li>
-                    <li>Nos meilleures ventes</li>
-                    <li><Link to="/toutes-les-plantes">Nos plantes</Link></li>
-                    <li><Link to="/accessoires">Nos accessoires</Link></li>
-                </ul>
-            </nav>
             <div className='slogan'>
                 <div>
                     <p>Respirez la nature avec <span>NaturEmoi</span>,</p>
@@ -20,6 +14,7 @@ function Header() {
                 </div>
             </div>
         </header>
+        </>
     )
 }
 
