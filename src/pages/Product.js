@@ -11,7 +11,7 @@ function Product() {
 
     useEffect(() => {
         fetchProduct()
-    }, [])
+    })
 
     const fetchProduct = async () => {
         const response = await fetch("/datas.json")
