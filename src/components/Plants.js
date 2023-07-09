@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
+import cart from "../assets/cart-green.png"
 
 function Plants() {
     const [plants, setPlants] = useState([])
@@ -27,16 +28,24 @@ function Plants() {
             </div>
             <div className="container">
                 {plants.map((image, index) => (
-                    <figure  key={index}>
+                    <Link to={`/product/${index}`} key={index}>
+                    <figure>
                         <img src={image.url} alt={image.name} />
                         <figcaption>
-                            <h2>{image.name}</h2>
-                            <p>{image.price}€</p>
+                            <div>
+                                <h2>{image.name}</h2>
+                                <button ><img src={cart} alt="ajouter au panier" /></button>
+                            </div>
+                            <div>
+                                <p>{image.oldPrice}€</p>
+                                <p>{image.price}€</p>
+                            </div>
                         </figcaption>
                     </figure>
+                </Link>
                 ))}
             </div>
-            <Link to="/toutes-les-plantes" className="button">Voir plus</Link>
+            <Link to="/toutes-les-plantes" className="button link">Voir plus</Link>
         </section>
     )
 }

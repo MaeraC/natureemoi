@@ -24,9 +24,9 @@ function Nav() {
                 <Link to="/" className="logo"><img src={logo} alt="Logo NaturEmoi" />NaturEmoi</Link>
                 <ul className='menu'>
                     <li><Link to="/">Accueil</Link></li>
-                    <li><Link to="/toutes-les-plantes">Plantes</Link></li>
-                    <li><Link to="/accessoires">Accessoires</Link></li>
-                    <li><Link to="/">Contact</Link></li>
+                    <li><Link to="/toutes-les-plantes">Nos plantes d'intérieur</Link></li>
+                    <li><Link to="/#bestsellers" reloadDocument>Nos meilleures ventes</Link></li>
+                    <li><Link to="/#contact" reloadDocument>Nous contacter</Link></li>
                     <span></span>
                 </ul>
                 <ul className='icons'>

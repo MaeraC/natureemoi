@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
+import cart from "../assets/cart-green.png"
 
 function FilterPlants() {
     
@@ -72,17 +74,23 @@ function FilterPlants() {
                     return false
                 })
                 .map((plant, index) => (
-                    <figure key={index}>
-                        <img src={plant.url} alt={plant.name} />
-                        <figcaption>
-                            <h2>{plant.name}</h2>
-                            <p>{plant.price}€</p>
-                            <button>Ajouter au panier</button>
-                        </figcaption>
-                    </figure>
+                    <Link to={`/product/${index}`} key={index}>
+                        <figure>
+                            <img src={plant.url} alt={plant.name} />
+                            <figcaption>
+                                <div>
+                                    <h2>{plant.name}</h2>
+                                    <button ><img src={cart} alt="ajouter au panier" /></button>
+                                </div>
+                                <div>
+                                    <p>{plant.oldPrice}€</p>
+                                    <p>{plant.price}€</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </Link>
                 ))}
             </section>
-            
         </>
     )
 }

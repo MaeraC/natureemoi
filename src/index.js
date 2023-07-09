@@ -7,6 +7,7 @@ import Error from './pages/Error'
 import AllPlants from './pages/AllPlantes'
 import Footer from './components/Footer'
 import Accessories from './pages/Accessories'
+import Product from './pages/Product'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,7 @@ root.render(
         <Route path="/toutes-les-plantes" element={<AllPlants />} />
         <Route path="/error-404" element={<Error />} />
         <Route path="/accessoires" element={<Accessories />} />
+        <Route path="/product/:index" element={<Product />} />
       </Routes>
       <Footer />
     </Router>

@@ -9,8 +9,8 @@ function Header() {
         <header className="header">
             <div className='slogan'>
                 <div>
-                    <p>Respirez la nature avec <span>NaturEmoi</span>,</p>
-                    <p>Un oasis de verdure pour les amoureux des plantes.</p>
+                    <p>Respirez la nature avec <span>NaturEmoi</span>,<br></br>
+                    Un oasis de verdure pour les amoureux des plantes.</p>
                 </div>
             </div>
         </header>

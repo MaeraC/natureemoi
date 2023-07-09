@@ -1,16 +1,23 @@
+import adresse from "../assets/adresse(1).png"
+import tel from "../assets/tel.png"
+import mail from "../assets/mail.png"
+import fb from "../assets/fb.png"
+import ig from "../assets/ig.png"
+import tw from "../assets/tw.png"
+
 function Footer() {
     return (
-        <footer>
+        <footer id="#contact">
             <div>
                 <ul className="contact">
-                    <li>Adresse</li>
-                    <li>N° de téléphone</li>
-                    <li>E-mail</li>
+                    <li><img src={adresse} alt="adresse" />7 Place Albert 1er<br></br>34000 Montpellier</li>
+                    <li><img src={tel} alt="tel" />01.29.37.41.73</li>
+                    <li><img src={mail} alt="email" />contact@naturemoi.com</li>
                 </ul>
                 <ul className="reseaux">
-                    <li>facebook</li>
-                    <li>Instagram</li>
-                    <li>Twitter</li>
+                    <li><img src={fb} alt="" />Facebook</li>
+                    <li><img src={ig} alt="" />Instagram</li>
+                    <li><img src={tw} alt="" />Twitter</li>
                 </ul>
                 <ul className="mentions">
                     <li>Conditions générales de ventes</li>
