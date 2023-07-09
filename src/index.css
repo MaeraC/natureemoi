@@ -1,9 +1,22 @@
+@keyframes scroll {
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-100%);}  
+}
+
+
+
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4 {
   font-family: 'Ysabeau SC', sans-serif;
 }
 a {
@@ -28,14 +41,14 @@ section {
   display: inline-block;
   width: 100px;
   height: 5px;
-  background: #56a746;
+  background: #558855;
 }
 .title h1 {
   font-size: 40px;
   margin-bottom: -10px;
 }
 .button {
-  font-family: 'Ysabeau SC', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 5px 15px;
   background: white;
   border: 1px solid grey;
@@ -45,52 +58,190 @@ section {
 
 
 
+nav {
+  height: 8vh;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  font-family: "Ysabeau SC", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+nav .logo img {
+  width: 40px;
+}
+nav .menu {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-family: "Ysabeau SC", sans-serif;
+}
+nav .menu a {
+  transition: 0.3s;
+}
+nav .menu a:hover {
+  color: #558855;
+}
+nav .icons {
+  display: flex;
+}
+nav .icons img {
+  width: 25px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+nav .icons li:nth-child(3)::after {
+  content: "0";
+  padding: 2px 6px;
+  font-size: 13px;
+  border-radius: 50%;
+  background: #558855;
+  color: white;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+nav div {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background-color: white;
+  z-index: 99;
+  padding: 10px 20px;
+  text-align: center;
+}
+nav div img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+nav div h2 {
+  border-bottom: grey solid 1px;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+nav div p {
+  margin-top: 30px;
+  font-size: 15px;
+}
+nav form {
+  text-align: initial;
+  margin: 20px;
+}
+nav .account div {
+  position: initial;
+  width: 100%;
+  height: initial;
+  z-index: initial;
+  padding: initial;
+  text-align: initial;
+  margin: 20px 0;
+}
+nav form input {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5px;
+  outline: none;
+}
+nav form .button {
+  width: 100%;
+  background: #558855;
+  height: 40px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+nav .account a {
+  font-size: 14px;
+}
+nav .account a:hover {
+  color: #558855;
+  transition: 0.3s;
+}
+.dark-bg {
+  background-color: #000000a8;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 98;
+  top: 0;
+  left: 0;
+}
+.dark-bg-none {
+  display: none;
+}
+
+
+
 
 
 .header {
-  background: url(./assets/bg.jpg) fixed no-repeat;
+  background: url(./assets/bg-header2.jpg) fixed no-repeat;
   background-size: cover;
-  height: 100vh;
-  color: white;
-}
-.header nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  align-items: center;
-  background: #0000004f;
-}
-.header nav ul {
-  width: 50%;
-  display: flex;
-  justify-content: end;
-}
-.header nav ul li {
-  margin: 0 20px;
-}
-.header img {
-  width: 50px;
+  height: 86vh;
 }
 .header .slogan {
   width: 100%;
-  height: 89%;
-  background: #0000004f;
+  height: 100%;
+  background: #0000007c;
   position: relative;
+  color: white;
 }
 .slogan div {
   position: absolute;
-  top: 40%;
-  left: 5%;
-  transform: translateY(-50%);
-  font-size: 35px;
-  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+  line-height: 50px;
 }
 .slogan span {
   font-weight: bold;
   font-size: 40px;
+  font-family: "Ysabeau SC", sans-serif;
 }
 .header a {
   color: white;
+}
+
+
+
+
+
+
+.soldes {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  background-color: #558855;
+}
+.soldes p {
+  animation: scroll 15s linear infinite;
+  font-size: 18px;
+  color: white;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+.soldes p:hover {
+  animation-play-state: paused;
 }
 
 
@@ -120,7 +271,7 @@ section {
   position: absolute;
   bottom: 0;
   padding: 10px;
-  background-color: #ffffffc9;
+  background-color: #daf1c3cb;
   width: 100%;
 }
 .bestsellers figcaption h2 , .plants figcaption h2 , .results figcaption h2 {
@@ -132,7 +283,7 @@ section {
   color: grey;
 }
 .plants, .bestsellers {
-  background: #daf1c3;
+  background: white;
   position: relative;
   padding-bottom: 50px;
 }
@@ -140,6 +291,10 @@ section {
   position: absolute;
   right: 150px;
   bottom: 20px;
+}
+.plants .button:hover {
+  color: #558855;
+  transition: 0.3s;
 }
 
 
@@ -152,6 +307,7 @@ section {
   align-items: center;
   justify-content: center;
   padding: 50px 0;
+  background-color: #558855;
 }
 .advantages ul {
   width: 70%;
@@ -168,53 +324,54 @@ section {
   height: 50px;
 }
 .advantages p {
-  margin-top: 10px;
-  font-weight: bold;
+  margin-top: 15px;
+  color: white;
 }
+
+
 
 
 
 
 
 .header-page {
-  background: url(./assets/bg-header.jpg) fixed no-repeat;
+  background: url(./assets/bg-header.jpg);
   background-size: cover;
-  background-position: bottom 50px right 50%;
+  background-position: center;
   height: 200px;
-  position: relative;
 }
 .header-page h1 {
-  position: absolute;
-  top: 0;
-  left: 0;
+  color: white;
+  font-size: 50px;
   width: 100%;
   height: 100%;
-  background-color: #00000077;
-  color: white;
-  font-size: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #0000006c;
 }
-
-
 
 
 
 .filter-plants {
   display: flex;
   align-items: center;
-  background: #daf1c3;
+  background: white;
+  border-bottom: solid 1px #80808046;
   padding: 20px;
 }
 .filter-plants ul {
-  width: 60%;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  margin-left: 30px;
+  justify-content: center;
 }
-.filter-plants .button {
+.filter-plants .button ,.filter-plants select {
+  border: none;
   font-weight: bold;
+  color: #558855;
+  border: #558855 solid 1px;
+  border-radius: 20px;
+  margin: 0 20px;
 }
 .results {
   display: flex;
@@ -228,6 +385,30 @@ section {
   position: relative;
   box-shadow: #80808031 5px 5px 15px;
 }
-.results figcaption {
-  background-color: #daf1c3cb;
+
+
+
+
+
+
+footer {
+  background-color: #558855;
+  padding: 30px;
+  color: white;
+  padding-bottom: 10px;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+footer li {
+  cursor: pointer;
+}
+footer span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
 }

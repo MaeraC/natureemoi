@@ -1,6 +1,6 @@
-import shop from "../assets/magasin.gif"
-import retrait from "../assets/retrait.gif"
-import livraison from "../assets/livraison.gif"
+import shop from "../assets/magasin.png"
+import retrait from "../assets/retrait.png"
+import livraison from "../assets/livraison.png"
 
 function Advantages() {
     return (
