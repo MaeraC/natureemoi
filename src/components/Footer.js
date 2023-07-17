@@ -7,7 +7,7 @@ import tw from "../assets/tw.png"
 
 function Footer() {
     return (
-        <footer id="#contact">
+        <footer id="contact">
             <div>
                 <ul className="contact">
                     <li><img src={adresse} alt="adresse" />7 Place Albert 1er<br></br>34000 Montpellier</li>

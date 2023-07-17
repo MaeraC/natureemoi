@@ -79,12 +79,12 @@ section {
 
 
 nav {
-  padding: 0 10px;
-  padding-top: 5px;
+  width: 100%;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  background: #ffffffbd;
 }
 nav .logo {
   display: flex;
@@ -100,11 +100,13 @@ nav .menu {
   width: 70%;
   display: flex;
   justify-content: space-around;
-  font-size: 20px;
-  font-family: "Ysabeau SC", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
 }
 nav .menu a {
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 nav .menu a:hover {
   color: #558855;
@@ -272,9 +274,8 @@ nav .menu2 img {
 
 .header {
   background: url(./assets/header-bg.avif) no-repeat;
-  background-size: cover 100% 100%;
-  background-position: center 10px;
-  height: 75vh;
+  background-size: cover ;
+  height: 80vh;
 }
 .header .slogan {
   height: 100%;
@@ -282,12 +283,14 @@ nav .menu2 img {
   flex-direction: row-reverse;
   align-items: center;
   color: white;
+  background: rgba(0, 0, 0, 0.37);
 }
 .slogan div {
   font-size: 25px;
   padding: 30px;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 45%;
@@ -296,6 +299,17 @@ nav .menu2 img {
   background: #558855ee;
   border-top-left-radius: 40px;
   box-shadow: #363636 -10px 5px 20px;
+}
+.slogan .button {
+  text-transform: uppercase;
+  padding: 0 20px;
+  margin-top: 20px;
+  background: none;
+  border-color: white;
+}
+.slogan .button:hover {
+  transition: 0.3s;
+  background: rgba(0, 0, 0, 0.288);
 }
 .slogan span {
   font-weight: bold;
@@ -856,6 +870,10 @@ footer div {
 }
 footer li {
   cursor: pointer;
+}
+footer li:hover {
+  color: black;
+  transition: 0.3s;
 }
 footer span {
   display: inline-block;
