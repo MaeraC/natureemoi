@@ -368,9 +368,6 @@ nav .menu2 img {
   .header {
     height: 400px;
   }
-  .header .content {
-    padding-top: 30px;
-  }
   .header .imgs {
     display: none;
   }
@@ -391,10 +388,11 @@ nav .menu2 img {
     height: 380px;
   }
   .header .content {
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .header .txt {
-    padding: 20px;
+    padding:0;
+    padding-left: 40px;
   }
   .header .txt .title {
     font-size: 30px;
@@ -402,6 +400,9 @@ nav .menu2 img {
   .header .txt .p {
     width: 100%;
     margin-bottom: 30px;
+  }
+  .header .button {
+    font-size: 14px;
   }
 }
 
