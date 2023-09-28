@@ -343,9 +343,6 @@ nav .menu2 img {
   .header .txt .title {
     font-size: 45px;
   }
-  .header .txt .p {
-    font-size: 16px;
-  }
   .header .imgs .plant { 
     width: 90%;  
   }
@@ -365,22 +362,50 @@ nav .menu2 img {
   }
 }
 @media (max-width: 800px) {
-  .header {
-    height: 400px;
-  }
-  .header .imgs {
-    display: none;
+  .header .content {
+    flex-direction: column;
   }
   .header .txt {
     width: 100%;
     padding: 40px;
-  }
-  .header .txt .title {
-    font-size: 40px;
+    margin-right: 0;
+    margin-top: 80px;
+    position: relative;
+    z-index: 6;
   }
   .header .txt .p {
     width: 100%;
     margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .header .txt .title {
+    font-size: 50px;
+  }
+  .header .imgs{
+    width: 30%;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    top: -20%;
+    right: -20%;
+  }
+  .header .imgs .plant { 
+    width: 90%;  
+  }
+  
+}
+@media (max-width: 650px) {
+  .header .imgs{
+    width: 30%;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    top: 0%;
+    right: 0%;
+    margin-top: 40px;
   }
 }
 @media (max-width: 550px) {
@@ -393,6 +418,7 @@ nav .menu2 img {
   .header .txt {
     padding:0;
     padding-left: 40px;
+    
   }
   .header .txt .title {
     font-size: 30px;

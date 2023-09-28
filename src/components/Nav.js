@@ -27,6 +27,11 @@ function Nav() {
         } else {
           nav.style.backgroundColor = 'none';
         }
+
+        if (window.innerWidth <= 900) { 
+            nav.style.background = 'none';
+            nav.style.borderBottom = "none"
+          }
       }
 
     function handleCloseCart() {
