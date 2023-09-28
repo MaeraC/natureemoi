@@ -361,15 +361,15 @@ nav .menu2 img {
     
   }
 }
+
 @media (max-width: 800px) {
-  .header .content {
-    flex-direction: column;
+  .header {
+    height: 500px;
   }
   .header .txt {
     width: 100%;
     padding: 40px;
     margin-right: 0;
-    margin-top: 80px;
     position: relative;
     z-index: 6;
   }
@@ -383,34 +383,13 @@ nav .menu2 img {
     font-size: 50px;
   }
   .header .imgs{
-    width: 30%;
-    position: relative; 
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    top: -20%;
-    right: -20%;
-  }
-  .header .imgs .plant { 
-    width: 90%;  
+    display: none;
   }
   
 }
-@media (max-width: 650px) {
-  .header .imgs{
-    width: 30%;
-    position: relative; 
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    top: 0%;
-    right: 0%;
-    margin-top: 40px;
-  }
-}
 @media (max-width: 550px) {
   .header {
-    height: 400px;
+    height: 450px;
   }
   .header .content {
     padding-top: 50px;
@@ -421,7 +400,7 @@ nav .menu2 img {
     
   }
   .header .txt .title {
-    font-size: 30px;
+    font-size: 40px;
   }
   .header .txt .p {
     width: 100%;
