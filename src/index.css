@@ -107,19 +107,18 @@ section {
 }
 .button2 {
   font-family: 'Open Sans', sans-serif;
-  padding: 1px 8px;
+  padding: 2px 7px;
+  background: linear-gradient(#ffe600, orange);
   border: none;
-  background: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 20px;
   font-weight: bold;
-  letter-spacing: 1px;
+  border-radius: 5px;
+  color: black;
+  font-size: 18px;
   cursor: pointer;
   transition: 0.3s;
 }
 .button2:hover {
-  background: linear-gradient(#ffe600, orange);
+  transform: scale(1.1);
 }
 @media screen and (max-width: 800px) {
   .title h1 {
@@ -447,11 +446,12 @@ nav .menu2 img {
   padding: 10px;
   background-color: #0000007e;
   width: 100%;
-  color: white;
   letter-spacing: 2px;
 }
 .bestsellers figcaption h2 , .plants figcaption h2 , .results figcaption h2 {
   font-size: 18px;
+  color: #ffe600;
+  font-weight: 400;
 }
 .bestsellers figcaption p , .plants figcaption p , .results figcaption p {
   font-size: 20px;
@@ -512,11 +512,15 @@ nav .menu2 img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 0;
-  background: linear-gradient(orange, #ffe600);
+  background: url(assets/bg2.jpg);
+  background-size: cover;
+  padding: 0;
 }
 .advantages ul {
-  width: 70%;
+  background: #0a1a02e1;
+  padding: 50px 10%;
+  width: 100%; 
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -524,6 +528,7 @@ nav .menu2 img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 .advantages img {
   width: 60px;
@@ -662,7 +667,7 @@ nav .menu2 img {
   font-size: 17px;
 }
 .results figcaption div:nth-child(2) p:nth-child(2), .bestsellers figcaption div:nth-child(2) p:nth-child(2) , .plants figcaption div:nth-child(2) p:nth-child(2){
-  color: #ffe600;
+  color: #b1b1b1;
 }
 .results button img , .bestsellers button img  , .plants button img {
   width: 35px;
@@ -873,7 +878,7 @@ nav .menu2 img {
 
 
 footer {
-  background: linear-gradient(orange, #ffe600);
+  background: rgb(26, 26, 26);
   padding: 30px;
   padding-bottom: 10px;
   font-size: 13px;
@@ -885,6 +890,7 @@ footer div {
   line-height: 25px;
 }
 footer li {
+  color: white;
   cursor: pointer;
 }
 footer li:hover {
