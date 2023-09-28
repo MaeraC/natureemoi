@@ -376,8 +376,8 @@ nav .menu2 img {
   .header .txt .p {
     width: 100%;
     margin-bottom: 30px;
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height:35px;
   }
   .header .txt .title {
     font-size: 50px;
@@ -407,7 +407,7 @@ nav .menu2 img {
     margin-bottom: 30px;
   }
   .header .button {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
@@ -820,9 +820,6 @@ nav .menu2 img {
   }
 }
 @media screen and (max-width: 600px) {
-  .product {
-    padding: 20px;
-  }
   .product img {
     height: 300px;
   }
