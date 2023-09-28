@@ -541,7 +541,6 @@ nav .menu2 img {
 @media screen and (max-width: 968px) {
   .advantages ul {
     width : 100%;
-    margin: 0 40px;
   }
   .advantages p {
     width: 80%;
