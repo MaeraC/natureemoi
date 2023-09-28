@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
-import cart from "../assets/cart-green.png"
 
 function Plants() {
     const [plants, setPlants] = useState([])

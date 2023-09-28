@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
-import cart from "../assets/cart-green.png"
 
 function Bestsellers() {
     const [plants, setPlants] = useState([])
@@ -19,7 +18,7 @@ function Bestsellers() {
             console.error("Error fetching images:", error)
         }
     }
-
+ 
     return (
         <section className="bestsellers" id="bestsellers">
             <div className="title">
