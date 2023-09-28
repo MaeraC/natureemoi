@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
-import cart from "../assets/cart-green.png"
 
 function FilterPlants() {
     
@@ -80,7 +79,7 @@ function FilterPlants() {
                             <figcaption>
                                 <div>
                                     <h2>{plant.name}</h2>
-                                    <button ><img src={cart} alt="ajouter au panier" /></button>
+                                    <button className="button2" >+</button>
                                 </div>
                                 <div>
                                     <p>{plant.oldPrice}€</p>

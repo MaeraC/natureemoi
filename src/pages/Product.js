@@ -35,7 +35,7 @@ function Product() {
                         <h1>{product.name}</h1>
                         <ul>
                             <li>{product.oldPrice}</li>
-                            <li>{product.price}€</li>
+                            <li className="button">{product.price}€</li>
                         </ul>
                     </div>
                     <div className="description">

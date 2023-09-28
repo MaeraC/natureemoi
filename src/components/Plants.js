@@ -34,7 +34,7 @@ function Plants() {
                         <figcaption>
                             <div>
                                 <h2>{image.name}</h2>
-                                <button ><img src={cart} alt="ajouter au panier" /></button>
+                                <button className="button2">+</button>
                             </div>
                             <div>
                                 <p>{image.oldPrice}€</p>
